@@ -2,9 +2,7 @@
 using namespace std;
 int main(){
     int n;
-    cin >> n;
     int caseNum = 0;
-    vector<pair<int,int>> ans;
     auto check = [](int a,int b){
         int cnt[10]={};
         //5位数，取5次
@@ -20,15 +18,14 @@ int main(){
             if(cnt[i]!=1) return false;
         return true;
     };
-    while (cin>>n)
-    {
+    while(scanf("%d", &n) == 1 && n != 0){
+        vector<pair<int,int>> ans;
         if (caseNum++) cout<<'\n';
-        for(int fjhik=01234;;fjhik++)
+        for(int fjhik=1234;;fjhik++)
         {
             int abcde = n*fjhik;
             if (abcde>98765) break;
-            if check(abcde,fjhik)
-                ans.push_back({abcde,fjhik});
+            if(check(abcde,fjhik)) ans.push_back({abcde,fjhik});
         }
         if (ans.size()==0)
             cout<<"There are no solutions for "<<n<<".\n";
