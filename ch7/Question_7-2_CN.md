@@ -11,13 +11,18 @@
 对于每个测试用例，你必须输出如下格式的消息：'Case #$M$: The maximum product is $P$.'，其中 $M$ 是测试用例的编号（从 1 开始），$P$ 是最大乘积的值。每个测试用例输出后需打印一个空行。
 
 样例输入
+```
 3
 2 4 -3
 
 5
 2 5 -1 2 -1
+```
+
 
 样例输出
+```
 Case #1: The maximum product is 8.
 
 Case #2: The maximum product is 20.
+```

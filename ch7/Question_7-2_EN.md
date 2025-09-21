@@ -11,13 +11,17 @@ Output
 For each test case you must print the message: 'Case #$M$: The maximum product is $P$.', where $M$ is the number of the test case, starting from 1, and $P$ is the value of the maximum product. After each test case you must print a blank line.
 
 Sample Input
+```
 3
 2 4 -3
 
 5
 2 5 -1 2 -1
+```
 
 Sample Output
+```
 Case #1: The maximum product is 8.
 
 Case #2: The maximum product is 20.
+```
