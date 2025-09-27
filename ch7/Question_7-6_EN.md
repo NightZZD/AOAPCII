@@ -12,7 +12,7 @@ Write a program that will find the ordering of a graph that minimises the bandwi
 
 Input
 
-Input will consist of a series of graphs. Each graph will appear on a line by itself. The entire file will be terminated by a line consisting of a single #. For each graph, the input will consist of a series of records separated by ':'. Each record will consist of a node name (a single upper case character in the the range 'A' to 'Z'), followed by a ':' and at least one of its neighbours. The graph will contain no more than 8 nodes.
+Input will consist of a series of graphs. Each graph will appear on a line by itself. The entire file will be terminated by a line consisting of a single #. For each graph, the input will consist of a series of records separated by ';'. Each record will consist of a node name (a single upper case character in the the range 'A' to 'Z'), followed by a ':' and at least one of its neighbours. The graph will contain no more than 8 nodes.
 
 Output
 
